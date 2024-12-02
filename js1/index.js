@@ -10,3 +10,7 @@ console.log(balance, account);
 let mutableBalance = 100;
 mutableBalance = 200;
 console.log(mutableBalance);
+
+let deposit = prompt("deposit amount:");
+mutableBalance += parseInt(deposit);
+console.log("you have deposited", deposit, "balance is now", mutableBalance);

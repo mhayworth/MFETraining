@@ -1,8 +1,14 @@
+import { useState } from "react";
+
 const Greeting = ({name: userName, age: greetingAge, message}: GreetingPropsType): React.ReactElement => {
+    const [name, setName] = useState<string>(userName);
     return (
-        <p>
-            Hello {userName}, you are {greetingAge} years old! {message ? message : "no message for now"}
-        </p>
+        <>
+            <button onClick={() => setName("James")}>Change name</button>
+            <p>
+                Hello {name}, you are {greetingAge} years old! {message ? message : "no message for now"}
+            </p>
+        </>
     )
 }
 

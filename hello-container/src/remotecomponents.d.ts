@@ -1,0 +1,5 @@
+declare module 'paymentlist/HelloWorld'
+declare module 'paymentlist/PaymentList'
+declare module 'addpayment/AddPayment'
+declare module 'paymentlist/App'
+declare module 'paymentlist/UserSearch'

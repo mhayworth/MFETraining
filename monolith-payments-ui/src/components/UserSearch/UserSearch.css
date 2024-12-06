@@ -1,0 +1,8 @@
+.input-error {
+    border-color: red;
+}
+
+.input-error:focus {
+    border: 1px solid red !important;
+    color: red;
+}
